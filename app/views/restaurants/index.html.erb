@@ -1,0 +1,10 @@
+<h1> Welcome to all Restaurants</h1>
+
+<ul>
+  <% @restaurants.each do |restaurant| %>
+    <p><%= restaurant.id %></p>
+    <li><%= restaurant.name %></li>
+    <p> ..................</p>
+    <% end %>
+</ul>
+
